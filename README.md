@@ -21,7 +21,6 @@ The goal is to build scalable and efficient pipelines using modern data engineer
 <p align="center">
   <img src="WorkFlow/pipeline.jpg" alt="Example Image" width="600"/>
 </p>
----
 
 ## Pipeline Breakdown
 
@@ -38,7 +37,12 @@ The goal is to build scalable and efficient pipelines using modern data engineer
   - Extract data using PySpark.
   - Transform using business logic (null handling, standardization, encoding).
   - Load the data into Snowflake data warehouse using the **Snowflake Connector for Spark**.
-- **Schema**: Snowflake schema design (star schema model).
+- **Schema**: Snowflake schema design.
+
+  📸 Schema
+<p align="center">
+  <img src="Model/loans model.png" alt="Example Image" width="600"/>
+</p>
 
 ### 3. Streaming Pipeline
 
