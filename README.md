@@ -41,7 +41,7 @@ The goal is to build scalable and efficient pipelines using modern data engineer
 
   📸 Schema
 <p align="center">
-  <img src="Model/loans model.png" alt="Example Image" width="600"/>
+  <img src="Data Model/loans model.png" alt="Example Image" width="600"/>
 </p>
 
 ### 3. Streaming Pipeline
