@@ -17,6 +17,10 @@ The goal is to build scalable and efficient pipelines using modern data engineer
 - **Streaming Pipeline**: Simulated real-time data using Kafka, processed with PySpark Structured Streaming, and loaded into a separate streaming schema in Snowflake.
 - **Deployment**: Entire stack containerized using Docker and Docker Compose.
 
+📸 Pipeline 
+<p align="center">
+  <img src="WorkFlow/pipeline.jpg" alt="Example Image" width="600"/>
+</p>
 ---
 
 ## Pipeline Breakdown
@@ -58,6 +62,13 @@ The goal is to build scalable and efficient pipelines using modern data engineer
 
 ---
 
+📸 Dashboard  
+<p align="center">
+  <img src="Insights/Dashboard.png" alt="Example Image" width="600"/>
+</p>
+<p align="center">
+  <img src="Insights/Dashboard2.png" alt="Example Image" width="600"/>
+</p>
 ## Project Structure
 
 lending-club-project/ │ ├── docker/ # Docker Compose setup ├── kafka/ # Kafka setup and simulation script ├── pyspark_jobs/ # PySpark ETL and streaming scripts ├── data/ # Input CSVs ├── snowflake_models/ # SQL models and schema design └── README.md # Project documentation
